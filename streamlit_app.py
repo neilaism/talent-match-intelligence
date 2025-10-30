@@ -1,5 +1,5 @@
 import streamlit as st
-from supabase import create_client
+# from supabase import create_client
 import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go

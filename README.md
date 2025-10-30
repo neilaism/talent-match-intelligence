@@ -43,7 +43,7 @@ Deployment
 
 The app is deployed on Hugging Face Spaces and connected securely to Supabase and OpenRouter APIs.
 
-Public deployment link:
+Public deployment link: [Streamlit Cloud](https://talent-match-intelligence-neilaism.streamlit.app/)
 
 ---
 
