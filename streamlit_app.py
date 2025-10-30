@@ -38,7 +38,7 @@ df = load_data()
 # supabase = create_client(SUPABASE_URL, SUPABASE_KEY)
 
 # AI Recommendation
-OPENROUTER_KEY = st.secrets["OPENROUTER_KEY", None]
+OPENROUTER_KEY = st.secrets.get("OPENROUTER_KEY", None)
 
 if page == "Home Page - Talent Match Intelligence":
     st.title("🎯 AI Talent Match Intelligence & Recommendation")
